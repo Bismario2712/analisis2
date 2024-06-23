@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Estimación y Desarrollo de Software</title>
+</head>
+<body>
+    <h1>¿Qué son los Modelos de Estimación?</h1>
+    <p>Los modelos de estimación son métodos y técnicas utilizados para predecir el esfuerzo, tiempo, costo y recursos necesarios para completar un proyecto, especialmente en el contexto del desarrollo de software. Estos modelos ayudan a los equipos a planificar y gestionar proyectos de manera más efectiva, proporcionando estimaciones basadas en datos históricos, características del proyecto y otros factores relevantes.</p>
+
+    <h1>Comparación de Modelos de Estimación</h1>
+    
+    <h2>Modelo COCOMO (Constructive Cost Model)</h2>
+    <p>Desarrollado por Barry Boehm en 1981, es un modelo paramétrico que utiliza una fórmula basada en el tamaño del software (medido en líneas de código) y otros factores de ajuste para estimar el esfuerzo, tiempo y costo de desarrollo. Tiene tres niveles: básico, intermedio y detallado. El nivel básico proporciona una estimación rápida y simple, mientras que los niveles intermedio y detallado consideran más factores y son más precisos.</p>
+    <p><strong>Ventajas:</strong></p>
+    <p>Basado en datos históricos y empíricos. Proporciona estimaciones detalladas ajustadas por factores específicos del proyecto.</p>
+    <p><strong>Desventajas:</strong></p>
+    <p>Requiere una estimación inicial del tamaño del software. Puede ser complejo de usar para proyectos pequeños.</p>
+    <p><strong>Adecuado para:</strong></p>
+    <p>Proyectos de gran escala con datos históricos disponibles. Situaciones donde se necesita una estimación detallada considerando múltiples factores.</p>
+
+    <h2>Método de Puntos de Función (Function Points)</h2>
+    <p>Desarrollado por Allan Albrecht en los años 70, mide la funcionalidad proporcionada al usuario final en términos de puntos de función, basándose en entradas, salidas, consultas, archivos y interfaces externas. Se enfoca en la funcionalidad del software más que en las líneas de código.</p>
+    <p><strong>Ventajas:</strong></p>
+    <p>Independiente del lenguaje de programación. Centrado en la funcionalidad, lo que facilita la estimación en fases tempranas del proyecto.</p>
+    <p><strong>Desventajas:</strong></p>
+    <p>Requiere una comprensión detallada de los requisitos funcionales. Puede ser subjetivo en la asignación de puntos de función.</p>
+    <p><strong>Adecuado para:</strong></p>
+    <p>Proyectos con una clara definición de requisitos funcionales. Situaciones donde se necesita una estimación temprana antes de determinar la cantidad de código necesario.</p>
+
+    <h2>Comparación y Contraste:</h2>
+    <p>COCOMO se basa en el tamaño del software medido en líneas de código, mientras que los puntos de función se basan en la funcionalidad entregada al usuario. COCOMO es más adecuado para proyectos grandes con datos históricos, mientras que los puntos de función son útiles para estimaciones tempranas y proyectos donde los requisitos funcionales están bien definidos.</p>
+
+    <h1>¿A qué llamamos la estimación de un proyecto de software?</h1>
+    <p>La estimación de un proyecto de software es el proceso de prever el esfuerzo, tiempo, recursos y costo necesarios para completar un proyecto de software. Este proceso incluye la evaluación de las tareas individuales, los recursos humanos y técnicos requeridos, y los posibles riesgos asociados con el desarrollo y la implementación del software.</p>
+
+    <h1>Principios Esenciales para el Desarrollo de Sistemas</h1>
+    <p><strong>Modularidad:</strong> Divide el sistema en módulos o componentes independientes que pueden ser desarrollados y probados por separado.</p>
+    <p><strong>Cohesión:</strong> Mide cómo están relacionadas las funciones dentro de un módulo. Una alta cohesión implica que las funciones de un módulo están estrechamente relacionadas y trabajan juntas para lograr un propósito específico.</p>
+    <p><strong>Acoplamiento:</strong> Se refiere a la dependencia entre módulos. Un bajo acoplamiento significa que los módulos pueden cambiar independientemente unos de otros, lo que mejora la mantenibilidad del sistema.</p>
+    <p><strong>Abstracción:</strong> Es la capacidad de representar las características esenciales sin incluir detalles específicos, lo que simplifica la comprensión y el desarrollo del sistema.</p>
+    <p><strong>Ejemplo de Modularidad:</strong> En el desarrollo de un sistema de gestión de inventarios, se puede aplicar la modularidad dividiendo el sistema en módulos como gestión de productos, gestión de proveedores, gestión de pedidos y gestión de informes. Cada módulo puede ser desarrollado y probado por separado, lo que facilita la identificación y corrección de errores y permite realizar cambios sin afectar todo el sistema.</p>
+
+    <h1>Partes Interesadas en un Proyecto de Desarrollo de Software para una Aplicación Móvil</h1>
+    <p><strong>Cliente (Empresa o Individuo):</strong></p>
+    <p><strong>Rol:</strong> Define los requisitos del proyecto, financia el desarrollo.</p>
+    <p><strong>Responsabilidades:</strong> Proporcionar requisitos claros, aprobar hitos, financiar el proyecto.</p>
+    <p><strong>Expectativas:</strong> Entrega de una aplicación funcional que cumpla con los requisitos dentro del tiempo y presupuesto acordados.</p>
+    <p><strong>Usuarios Finales:</strong></p>
+    <p><strong>Rol:</strong> Utilizan la aplicación.</p>
+    <p><strong>Responsabilidades:</strong> Proporcionar feedback, participar en pruebas de usabilidad.</p>
+    <p><strong>Expectativas:</strong> Aplicación fácil de usar, eficiente y que satisfaga sus necesidades.</p>
+    <p><strong>Desarrolladores:</strong></p>
+    <p><strong>Rol:</strong> Desarrollan el software.</p>
+    <p><strong>Responsabilidades:</strong> Escribir y probar el código, implementar funcionalidades.</p>
+    <p><strong>Expectativas:</strong> Requisitos claros, herramientas adecuadas, ambiente de trabajo colaborativo.</p>
+    <p><strong>Gerente de Proyecto:</strong></p>
+    <p><strong>Rol:</strong> Supervisa el proyecto.</p>
+    <p><strong>Responsabilidades:</strong> Planificación, seguimiento del progreso, gestión de recursos.</p>
+    <p><strong>Expectativas:</strong> Entrega del proyecto dentro del plazo y presupuesto, equipo motivado y eficiente.</p>
+    <p><strong>Equipo de QA (Quality Assurance):</strong></p>
+    <p><strong>Rol:</strong> Aseguran la calidad del software.</p>
+    <p><strong>Responsabilidades:</strong> Realizar pruebas, identificar y reportar errores.</p>
+    <p><strong>Expectativas:</strong> Requisitos claros, acceso a las últimas versiones del software.</p>
+    <p><strong>Diseñadores UX/UI:</strong></p>
+    <p><strong>Rol:</strong> Diseñan la interfaz y experiencia de usuario.</p>
+    <p><strong>Responsabilidades:</strong> Crear diseños atractivos y funcionales, realizar pruebas de usabilidad.</p>
+    <p><strong>Expectativas:</strong> Requisitos claros, feedback continuo, colaboración con desarrolladores.</p>
+
+    <h1>Plan de Proyecto para un Sistema de Gestión de Inventario</h1>
+    <p><strong>Fase 1: Iniciación</strong></p>
+    <p><strong>Definición del Proyecto:</strong> Identificar objetivos, alcance y partes interesadas.</p>
+    <p><strong>Estudio de Viabilidad:</strong> Evaluar la viabilidad técnica, económica y operativa.</p>
+    <p><strong>Fase 2: Planificación</strong></p>
+    <p><strong>Recolección de Requisitos:</strong> Entrevistas con usuarios, análisis de procesos existentes.</p>
+    <p><strong>Planificación del Proyecto:</strong> Crear un cronograma detallado, asignar recursos, definir presupuesto.</p>
+    <p><strong>Análisis de Riesgos:</strong> Identificar riesgos y planificar su mitigación.</p>
+    <p><strong>Fase 3: Análisis y Diseño</strong></p>
+    <p><strong>Modelado del Sistema:</strong> Crear diagramas de flujo de datos, diagramas de entidad-relación.</p>
+    <p><strong>Diseño de Arquitectura:</strong> Definir la estructura del sistema y seleccionar tecnologías.</p>
+    <p><strong>Diseño de Interfaces:</strong> Crear prototipos de interfaces de usuario.</p>
+    <p><strong>Fase 4: Desarrollo</strong></p>
+    <p><strong>Desarrollo de Módulos:</strong> Codificar módulos como gestión de productos, proveedores, pedidos e informes.</p>
+    <p><strong>Integración:</strong> Integrar los módulos desarrollados y realizar pruebas de integración.</p>
+    
